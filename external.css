@@ -1,0 +1,75 @@
+ 1.simple selector
+
+ tag name
+
+p{
+    background-color: red;
+}
+
+ class name */
+
+ .demo{
+    border: 1px solid greenyellow;
+    background-color: magenta;
+} 
+
+.shiva{
+    background-color: darkorange;
+}
+
+.shreeki{
+    font-size: 50px;
+} 
+
+ id name
+
+ #demo{
+    background-color: blue;
+} 
+
+ universal selector
+{
+border:1px dashed aqua;
+background-color: blueviolet;
+}
+
+
+ 2.combinator selector */
+
+ discendent selector */
+
+ div p{
+    border: 1px solid darkgreen;
+    color: purple;
+    background-color: red;
+} 
+
+ child selector */
+
+  div >p{
+    border: 3px dotted magenta;
+    background-color: blue;
+}  
+
+adjacent sibling selector */
+
+ div +h1{
+border:3px dotted green; 
+color:red;
+}
+
+general sibbling selector */
+div ~h1{
+    color:yellow;
+
+}
+
+ pseudo selector 
+h1:focus,:hover,child{
+    color:aqua;
+}
+
+ pseudo element selector */
+h1::before,after,marker{
+    background-color: brown;
+}
